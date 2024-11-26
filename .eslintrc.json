@@ -1,0 +1,74 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "**/*.{js,mjs,cjs,ts,jsx,tsx}"
+      ],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        }
+      },
+      "globals": {
+        "browser": "readonly"
+      },
+      "rules": {
+        "indent": [
+          "error",
+          2
+        ],
+        "quotes": [
+          "error",
+          "single"
+        ],
+        "semi": [
+          "error",
+          "always"
+        ],
+        "eqeqeq": [
+          "error",
+          "always"
+        ],
+        "no-trailing-spaces": "error",
+        "eol-last": [
+          "error",
+          "always"
+        ],
+        "comma-dangle": [
+          "error",
+          "never"
+        ],
+        "no-console": "warn",
+        "curly": [
+          "error",
+          "all"
+        ],
+        "brace-style": [
+          "error",
+          "1tbs"
+        ],
+        "array-bracket-spacing": [
+          "error",
+          "never"
+        ],
+        "object-curly-spacing": [
+          "error",
+          "always"
+        ],
+        "arrow-spacing": [
+          "error",
+          {
+            "before": true,
+            "after": true
+          }
+        ]
+      }
+    }
+  ],
+  "extends": [
+    "plugin:@typescript-eslint/recommended"
+  ]
+}

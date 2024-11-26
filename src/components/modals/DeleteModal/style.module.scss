@@ -1,0 +1,40 @@
+.modalDelete {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 160px;
+  justify-content: space-between;
+  padding: 20px;
+
+  .actions {
+    display: flex;
+    gap: 20px;
+  }
+
+  button {
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .delete {
+    background-color: rgb(223, 0, 0);
+    color: white;
+    
+    &:hover {
+      background-color: rgb(192, 0, 0);
+      transform: translateY(-2px);
+      }
+    }
+
+    .cancel {
+        
+    &:hover {
+      background-color: rgba(24, 24, 24, 0.252);
+      transform: translateY(-2px);
+    }
+  }
+}

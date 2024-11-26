@@ -1,0 +1,23 @@
+.tableCompanies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    
+      thead {
+        th {
+          text-align: left;
+          padding: 10px 0;
+          font-size: 24px;
+          font-weight: 500;
+          padding-left: 10px;
+          color: #333;
+        }
+      }
+  
+      td,
+      th {
+        border-bottom: 2px solid #ccc; 
+        padding-left: 10px;
+        text-align: left;
+      }
+    }

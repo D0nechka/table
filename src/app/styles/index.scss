@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px;
+    background: #4A4A5914;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+body {
+    background: #F7F7FA;
+}
+
+.app {
+    margin: 40px auto;
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+}

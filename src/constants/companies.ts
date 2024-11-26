@@ -1,0 +1,1 @@
+export const DEFAULT_COMPANIES_LIMIT = 20;

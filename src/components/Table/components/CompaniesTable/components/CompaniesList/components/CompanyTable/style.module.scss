@@ -1,0 +1,45 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+button {
+  transition: all 0.3s,;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  text-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+  transition: 0.3s;
+}
+    
+.editButton {
+  margin-left: 20px;
+}
+
+.deleteButton {
+  margin-left: 10px;
+}
+
+td:nth-child(odd) {
+  background: #e0e0e0;
+}
+
+td:nth-child(even) {
+  background: #f4f4f4;
+}
+
+table tr.selected td {
+  transition: 0.3s;
+  background-color: rgba(25, 99, 41, 0.476)
+}
+
